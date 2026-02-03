@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Clock, Gift, Shield, MessageCircle } from "lucide-react";
+import { Clock, Gift, Shield } from "lucide-react";
 import { openWhatsApp } from "@/lib/whatsapp";
 
 export function FooterHero() {

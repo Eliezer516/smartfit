@@ -1,7 +1,4 @@
 import { Zap, Calendar, UserCheck, LineChart } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { MessageCircle } from "lucide-react";
-import { openWhatsApp } from "@/lib/whatsapp";
 
 const benefits = [
   {
@@ -31,11 +28,6 @@ const benefits = [
 ];
 
 export function SolutionSection() {
-  const handleContact = () => {
-    openWhatsApp(
-      "¡Hola! Me interesa conocer más sobre cómo funciona SmartFit. ¿Me pueden explicar el proceso?"
-    );
-  };
 
   return (
     <section id="solucion" className="w-full bg-[#1A1A1A] py-20 md:py-28">
