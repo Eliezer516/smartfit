@@ -134,11 +134,11 @@ export function Hero() {
             <div className="order-1 lg:order-2">
               <div className="relative">
                 {/* Main Image */}
-                <div className="relative z-10 rounded-[8px] overflow-hidden shadow-2xl">
+                <div className="relative z-10 rounded-[8px] overflow-hidden">
                   <img
-                    src="https://placehold.co/600x700/1A1A1A/FF6B00?text=Transformación+SmartFit"
+                    src="/fit-man.png"
                     alt="Transformación SmartFit"
-                    className="w-full h-auto object-cover"
+                    className="w-full h-auto object-cover drop-shadow-2xl"
                   />
                 </div>
 

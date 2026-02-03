@@ -114,26 +114,9 @@ export function SolutionSection() {
                     {item.title}
                   </h4>
                   <p className="text-[#B0B0B0]">{item.description}</p>
-
-                  {/* Connector Line */}
-                  {index < 2 && (
-                    <div className="hidden md:block absolute top-8 left-full w-full h-[2px] bg-[#3A3A3A] -translate-x-4" />
-                  )}
                 </div>
               ))}
             </div>
-          </div>
-
-          {/* CTA */}
-          <div className="mt-16 text-center">
-            <Button
-              size="lg"
-              onClick={handleContact}
-              className="bg-[#25D366] hover:bg-[#128C7E] text-white font-semibold px-10 py-6 text-lg rounded-[8px] transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
-            >
-              <MessageCircle className="w-5 h-5 mr-2 fill-current" />
-              Hablar con un asesor por WhatsApp
-            </Button>
           </div>
         </div>
       </div>

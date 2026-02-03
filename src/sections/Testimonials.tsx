@@ -152,14 +152,6 @@ export function Testimonials() {
               </div>
               <div>
                 <div className="text-3xl md:text-4xl font-bold text-[#FF6B00] mb-2">
-                  4.9★
-                </div>
-                <div className="text-[#B0B0B0] text-sm">
-                  en App Store
-                </div>
-              </div>
-              <div>
-                <div className="text-3xl md:text-4xl font-bold text-[#FF6B00] mb-2">
                   50+
                 </div>
                 <div className="text-[#B0B0B0] text-sm">
